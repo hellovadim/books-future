@@ -11,7 +11,7 @@
     border: 1px solid rgba($color: #000000, $alpha: 0.4);
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     img {
-      display: block;
+      object-fit: cover;
       width: 100%;
     }
   }
@@ -35,10 +35,42 @@
     }
     p {
       font-size: 14px;
+      text-align: center;
     }
   }
   &__btn {
     display: block;
     margin: 0 auto;
+  }
+}
+@media (max-width: 900px) {
+  .book {
+    &__inner {
+      justify-content: space-around;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .book {
+    &__inner {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__descr {
+      width: 100%;
+      margin-top: 100px;
+    }
+  }
+}
+@media (max-width: 432px) {
+  .book {
+    &__descr {
+      width: 100%;
+      margin-top: 50px;
+      h2 {
+        font-size: 18px;
+      }
+    }
   }
 }
