@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/books-future/static/css/main.2bf8877a.css",
+    "main.js": "/books-future/static/js/main.8e6be588.js",
+    "index.html": "/books-future/index.html",
+    "main.2bf8877a.css.map": "/books-future/static/css/main.2bf8877a.css.map",
+    "main.8e6be588.js.map": "/books-future/static/js/main.8e6be588.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bf8877a.css",
+    "static/js/main.8e6be588.js"
+  ]
+}
