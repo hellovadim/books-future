@@ -34,7 +34,6 @@ export const ListPage = () => {
     error,
   } = useSelector((state) => state.list);
 
-  console.log(error);
   const handleKey = (e) => {
     if (e.key === "Enter") {
       dispatch(fetchSearchBook(search));
@@ -65,7 +64,7 @@ export const ListPage = () => {
     }
 
     return arr.map((book, i) => (
-      <ListItem key={book.id} id={book.id} {...book.volumeInfo} />
+      <ListItem key={book.id + i} id={book.id} {...book.volumeInfo} />
     ));
   };
 
