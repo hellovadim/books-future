@@ -1,0 +1,9 @@
+export const FETCH__BOOKS = "FETCH__BOOKS";
+export const ON_BOOKS_LOADING = "ON_BOOKS_LOADING";
+export const ON_BOOKS_SEARCH_LOADED = "ON_BOOKS_SEARCH_LOADED";
+export const ADD_BOOKS = "ADD_BOOKS";
+
+export const FETCH_BOOK_SUCCSES = "FETCH_BOOK_SUCCSES";
+export const FETCHING_BOOK = "FETCHING_BOOK";
+export const LOAD_BTN = "LOAD_BTN";
+export const ERROR__TRUE = "ERROR__TRUE";
